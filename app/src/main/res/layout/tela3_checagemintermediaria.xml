@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Tela3_ChecagemIntermediaria">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#004CAF50"
+        android:src="@drawable/iso_17025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/frog"
+        android:soundEffectsEnabled="false"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="4dp"
+        android:background="#004CAF50"
+        android:src="@drawable/logo_sapotec2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="@string/titulo_tela2"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frog">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/validar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:layout_constraintVertical_bias="0.3">
+
+        <LinearLayout
+            android:id="@+id/multiparametro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="7dp"
+            android:weightSum="1"
+            tools:layout_editor_absoluteX="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sapotec_verde"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="Multiparâmetro"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/subtitle_size"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sapotec_verde"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:gravity="center|left"
+                    android:text="OD (mg O2/L)"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/od_ext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@color/sapotec_verde"
+                    android:gravity="center"
+                    android:hint="@string/vazio"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789,."
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="italic"
+                    tools:ignore="Deprecated">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/od_ext_result"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/peso_apr_rep"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sapotec_verde"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:gravity="center|left"
+                    android:text="CE (µS/cm)"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ce_ext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@color/sapotec_verde"
+                    android:gravity="center"
+                    android:hint="@string/vazio"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789,."
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="italic"
+                    tools:ignore="Deprecated">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/ce_ext_result"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/peso_apr_rep"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sapotec_verde"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:gravity="center|left"
+                    android:text="ORP (mV)"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/orp_ext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@color/sapotec_verde"
+                    android:gravity="center"
+                    android:hint="@string/vazio"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789,."
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="italic"
+                    tools:ignore="Deprecated">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/orp_ext_result"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/peso_apr_rep"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sapotec_verde"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:gravity="center|left"
+                    android:text="pH"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/pHm_ext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@color/sapotec_verde"
+                    android:gravity="center"
+                    android:hint="@string/vazio"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789,."
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="italic"
+                    tools:ignore="Deprecated"></EditText>
+
+                <TextView
+                    android:id="@+id/pHm_ext_result"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/peso_apr_rep"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/turbidimetro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="7dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sapotec_verde"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="Turbidímetro"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/subtitle_size"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sapotec_verde"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:gravity="center|left"
+                    android:text="Turb (NTU)"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="normal"></TextView>
+
+                <EditText
+                    android:id="@+id/turb_ext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@color/sapotec_verde"
+                    android:gravity="center"
+                    android:hint="@string/vazio"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789,."
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="italic"
+                    tools:ignore="Deprecated">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/turb_ext_result"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/peso_apr_rep"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pHmetro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="7dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sapotec_verde"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="pHmetro"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/subtitle_size"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sapotec_verde"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:gravity="center|left"
+                    android:text="pH"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/pH_ext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@color/sapotec_verde"
+                    android:gravity="center"
+                    android:hint="@string/vazio"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789,."
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="italic"
+                    tools:ignore="Deprecated">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/pH_ext_result"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/peso_apr_rep"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/validar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8A9503"
+        android:text="VALIDAR"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_font_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/avancar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="@color/sapotec_verde"
+        android:text="Avancar"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_font_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:backgroundTint="@color/sapotec_verde"
+        android:text="VOLTAR"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_font_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

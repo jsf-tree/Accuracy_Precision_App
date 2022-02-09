@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sapotec_DPR</string>
+    <string name="haha">olha_so</string>
+    <string name="Reprovado">X - REP</string>
+    <string name="Aprovado">✓ - APR</string>
+    <string name="vazio">-</string>
+    <string name="titulo_tela1">INFORMAÇÕES GERAIS</string>
+    <string name="titulo_tela2">CHECAGEM INTERMEDIÁRIA</string>
+    <string name="titulo_tela3">DUPLICATA DE ENSAIO</string>
+    <string name="titulo_tela4"> </string>
+    <string name="tamanho_fonte">12sp</string>
+    <string-array name="Equipamentos">
+        <item>[Selecionar uma opção...]</item>
+        <item>Turbidímetro</item>
+        <item>pHmetro</item>
+        <item>Mu-03</item>
+        <item>Mu-04</item>
+        <item>Mu-05</item>
+        <item>Mu-06</item>
+    </string-array>
+</resources>

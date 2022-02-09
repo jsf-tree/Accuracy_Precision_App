@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sapotec_dpr">
+    <application
+        android:allowBackup="true"
+        android:label="SAPOTEC Checagem"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sapotec_DPR"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:windowSoftInputMode="adjustResize">
+        <activity
+            android:name=".Tela1_Abertura"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tela5_Compartilhar"
+            android:exported="true"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Tela4_DuplicataEnsaio"
+            android:exported="true"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Tela3_ChecagemIntermediaria"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tela2_InformacoesGerais"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+</manifest>
