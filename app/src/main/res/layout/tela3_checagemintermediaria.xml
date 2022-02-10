@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".Tela3_ChecagemIntermediaria">
+    tools:context=".Tela3ChecagemIntermediaria">
 
 
     <ImageView
@@ -13,7 +13,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="#004CAF50"
-        android:src="@drawable/iso_17025"
+        android:src="@mipmap/ic_app_purpose"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription">
@@ -28,7 +28,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="4dp"
         android:background="#004CAF50"
-        android:src="@drawable/logo_sapotec2"
+        android:src="@mipmap/ic_company_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -76,7 +76,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/sapotec_verde"
+                android:background="@color/verde"
                 android:orientation="horizontal"
                 android:padding="5dp">
 
@@ -98,7 +98,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/sapotec_verde"
+                android:background="@color/verde"
                 android:orientation="horizontal"
                 android:padding="5dp">
 
@@ -119,7 +119,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
-                    android:background="@color/sapotec_verde"
+                    android:background="@color/verde"
                     android:gravity="center"
                     android:hint="@string/vazio"
                     android:inputType="numberDecimal"
@@ -149,7 +149,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/sapotec_verde"
+                android:background="@color/verde"
                 android:orientation="horizontal"
                 android:padding="5dp">
 
@@ -170,7 +170,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
-                    android:background="@color/sapotec_verde"
+                    android:background="@color/verde"
                     android:gravity="center"
                     android:hint="@string/vazio"
                     android:inputType="numberDecimal"
@@ -201,7 +201,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/sapotec_verde"
+                android:background="@color/verde"
                 android:orientation="horizontal"
                 android:padding="5dp">
 
@@ -222,7 +222,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
-                    android:background="@color/sapotec_verde"
+                    android:background="@color/verde"
                     android:gravity="center"
                     android:hint="@string/vazio"
                     android:inputType="numberDecimal"
@@ -252,7 +252,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/sapotec_verde"
+                android:background="@color/verde"
                 android:orientation="horizontal"
                 android:paddingLeft="5dp"
                 android:paddingTop="5dp"
@@ -276,7 +276,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
-                    android:background="@color/sapotec_verde"
+                    android:background="@color/verde"
                     android:gravity="center"
                     android:hint="@string/vazio"
                     android:inputType="numberDecimal"
@@ -316,7 +316,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/sapotec_verde"
+                android:background="@color/verde"
                 android:orientation="horizontal"
                 android:padding="5dp">
 
@@ -339,7 +339,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/sapotec_verde"
+                android:background="@color/verde"
                 android:orientation="horizontal"
                 android:paddingLeft="5dp"
                 android:paddingTop="5dp"
@@ -361,7 +361,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
-                    android:background="@color/sapotec_verde"
+                    android:background="@color/verde"
                     android:gravity="center"
                     android:hint="@string/vazio"
                     android:inputType="numberDecimal"
@@ -402,7 +402,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/sapotec_verde"
+                android:background="@color/verde"
                 android:orientation="horizontal"
                 android:padding="5dp">
 
@@ -425,7 +425,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/sapotec_verde"
+                android:background="@color/verde"
                 android:orientation="horizontal"
                 android:paddingLeft="5dp"
                 android:paddingTop="5dp"
@@ -449,7 +449,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.3"
-                    android:background="@color/sapotec_verde"
+                    android:background="@color/verde"
                     android:gravity="center"
                     android:hint="@string/vazio"
                     android:inputType="numberDecimal"
@@ -497,7 +497,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="7dp"
-        android:backgroundTint="@color/sapotec_verde"
+        android:backgroundTint="@color/verde"
         android:text="Avancar"
         android:textColor="@color/white"
         android:textSize="@dimen/button_font_size"
@@ -510,7 +510,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="7dp"
-        android:backgroundTint="@color/sapotec_verde"
+        android:backgroundTint="@color/verde"
         android:text="VOLTAR"
         android:textColor="@color/white"
         android:textSize="@dimen/button_font_size"

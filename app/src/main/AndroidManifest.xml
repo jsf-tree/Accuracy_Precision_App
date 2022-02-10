@@ -6,11 +6,11 @@
         android:label="Accuracy Precisionm"
         android:supportsRtl="true"
         android:theme="@style/Theme.accuracy_precision"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/ic_abertura"
+        android:roundIcon="@mipmap/ic_abertura_round"
         android:windowSoftInputMode="adjustResize">
         <activity
-            android:name="com.example.accuracy_precision.Tela1_Abertura"
+            android:name="com.example.accuracy_precision.Tela1Abertura"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -19,22 +19,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.accuracy_precision.Tela2_InformacoesGerais"
+            android:name="com.example.accuracy_precision.Tela2InformacoesGerais"
             android:exported="true"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.example.accuracy_precision.Tela3_ChecagemIntermediaria"
+            android:name="com.example.accuracy_precision.Tela3ChecagemIntermediaria"
             android:exported="true"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.example.accuracy_precision.Tela4_DuplicataEnsaio"
+            android:name="com.example.accuracy_precision.Tela4DuplicataEnsaio"
             android:exported="true"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="com.example.accuracy_precision.Tela5_Compartilhar"
+            android:name="com.example.accuracy_precision.Tela5Compartilhar"
             android:exported="true"
             android:screenOrientation="portrait">
         </activity>
