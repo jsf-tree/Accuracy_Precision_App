@@ -11,7 +11,6 @@
 #### FIRST TIME USING IT? 
 This app was developed with Android Studio.\
 I suggest that you use the same IDE if you want to peek inside.\
-\
 
 ---
 #### INSTRUCTIONS (only for Android):
@@ -20,4 +19,4 @@ I suggest that you use the same IDE if you want to peek inside.\
 "For security, the phone is configured to block the installation of apps from unknown sources."
 3. Go to settings, select "allow unkown sources"
 4. Now you can install and run it
-- all material related with the company was removed (including logos and images)
+- anything related with the company was removed (including logos and images)
