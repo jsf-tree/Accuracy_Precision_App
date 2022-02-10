@@ -8,7 +8,7 @@ ATIVIDADE ANTERIOR: DuplicataPrecisao
 ATIVIDADE SUBSEQUENTE: -
 * */
 
-package com.backend.accuracy_precision
+package com.example.accuracy_precision
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface

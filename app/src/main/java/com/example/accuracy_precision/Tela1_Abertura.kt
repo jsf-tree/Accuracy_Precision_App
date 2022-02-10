@@ -15,7 +15,7 @@ ATIVIDADE ANTERIOR: -
 ATIVIDADE SUBSEQUENTE: InserirInfos
 * */
 
-package com.backend.accuracy_precision
+package com.example.accuracy_precision
 
 import android.content.Intent
 import android.os.Bundle

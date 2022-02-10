@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:windowSoftInputMode="adjustResize">
         <activity
-            android:name="com.backend.accuracy_precision.Tela1_Abertura"
+            android:name="com.example.accuracy_precision.Tela1_Abertura"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -19,22 +19,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.backend.accuracy_precision.Tela2_InformacoesGerais"
+            android:name="com.example.accuracy_precision.Tela2_InformacoesGerais"
             android:exported="true"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.backend.accuracy_precision.Tela3_ChecagemIntermediaria"
+            android:name="com.example.accuracy_precision.Tela3_ChecagemIntermediaria"
             android:exported="true"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.backend.accuracy_precision.Tela4_DuplicataEnsaio"
+            android:name="com.example.accuracy_precision.Tela4_DuplicataEnsaio"
             android:exported="true"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="com.backend.accuracy_precision.Tela5_Compartilhar"
+            android:name="com.example.accuracy_precision.Tela5_Compartilhar"
             android:exported="true"
             android:screenOrientation="portrait">
         </activity>

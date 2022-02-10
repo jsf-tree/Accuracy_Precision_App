@@ -10,7 +10,7 @@ ATIVIDADE SUBSEQUENTE: InserirInfos
 * */
 
 
-package com.backend.accuracy_precision
+package com.example.accuracy_precision
 
 import android.app.DatePickerDialog
 import android.content.Intent
