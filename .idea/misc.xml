@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2453125" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/drawable/ic_abertura.xml" value="0.3828125" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.3828125" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2453125" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.3828125" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/layout/activity_abertura.xml" value="0.25" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/layout/activity_checagem_exatidao.xml" value="0.33" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/layout/activity_compartilhar.xml" value="0.33" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/layout/activity_duplicata_precisao.xml" value="0.33" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/layout/activity_infos_entradas.xml" value="0.36666666666666664" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/layout/activity_inserir_infos.xml" value="0.33" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/layout/spinner_item.xml" value="0.23697916666666666" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
-        <entry key="..\:/8_Softwares/Android/Projects/SAPOTEC_dpr/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/drawable/ic_abertura.xml" value="0.30416666666666664" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.30416666666666664" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.30416666666666664" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/activity_abertura.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/activity_checagem_exatidao.xml" value="0.33" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/activity_compartilhar.xml" value="0.33" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/activity_duplicata_precisao.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/activity_inserir_infos.xml" value="0.33" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/spinner_item.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/tela1_abertura.xml" value="0.19067028985507245" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/tela2_informacoesgerais.xml" value="0.33" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/tela3_checagemintermediaria.xml" value="0.33" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/tela4_duplicataensaio.xml" value="0.33" />
-        <entry key="..\:/Users/juliano/Desktop/SAPOTEC_dpr/app/src/main/res/layout/tela5_compartilhar.xml" value="0.33" />
-      </map>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
