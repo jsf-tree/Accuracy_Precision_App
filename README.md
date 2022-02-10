@@ -15,7 +15,7 @@ I suggest that you use the same IDE if you want to peek inside.\
 ---
 #### INSTRUCTIONS (only for Android):
 1. download the 'Accuracy-Precision-App.apk' file
-2. try install on your phone, you will get a message along the lines of\
+2. try to install it on your phone, you will get a message along the lines of\
 "For security, the phone is configured to block the installation of apps from unknown sources."
 3. Go to settings, select "allow unkown sources"
 4. Now you can install and run it
